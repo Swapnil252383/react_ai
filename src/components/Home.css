@@ -1,0 +1,49 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.home-content {
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 40px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Soft shadow */
+}
+
+.react-logo {
+    width: 120px; /* Size of the logo */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5rem; /* Increased font size for better visibility */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem; /* Slightly larger paragraph font */
+    margin-bottom: 30px;
+}
+
+.start-button {
+    display: inline-block; /* To make the button work properly */
+    padding: 15px 30px;
+    background-color: #ff4081; /* Bright button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 25px; /* Rounded button */
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.start-button:hover {
+    background-color: #ff6f61; /* Darker shade on hover */
+}

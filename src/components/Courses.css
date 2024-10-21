@@ -1,0 +1,14 @@
+.courses {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.courses ul {
+    list-style-type: none;
+}
+
+.courses li {
+    margin: 10px 0;
+    font-size: 20px;
+}
